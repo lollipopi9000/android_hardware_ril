@@ -377,13 +377,13 @@ OpenLib:
 
     RLOGD("RIL_Init RIL_register completed");
 
-    if (rilUimInit) {
+/*    if (rilUimInit) {
         RLOGD("RIL_register_socket started");
         RIL_register_socket(rilUimInit, RIL_SAP_SOCKET, argc, rilArgv);
     }
 
     RLOGD("RIL_register_socket completed");
-
+*/
 done:
 
     RLOGD("RIL_Init starting sleep loop");
